@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "ComunicaAut — CAA para famílias" },
+      { name: "description", content: "Prancha de Comunicação Alternativa e Aumentativa acolhedora para crianças autistas não-verbais e seus cuidadores." },
+      { name: "author", content: "ComunicaAut" },
+      { property: "og:title", content: "ComunicaAut — CAA para famílias" },
+      { property: "og:description", content: "Prancha de comunicação com voz, painel dos cuidadores e recursos acessíveis." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@ComunicaAut" },
     ],
     links: [
       {
