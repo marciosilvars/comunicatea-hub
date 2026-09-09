@@ -65,6 +65,14 @@
 
 :root {
   --radius: 1.1rem;
+  --sand: oklch(0.951 0.011 82);
+  --ink: oklch(0.36 0.024 259);
+  --req: oklch(0.573 0.099 259);
+  --feel: oklch(0.7 0.083 51);
+  --food: oklch(0.663 0.069 121);
+  --place: oklch(0.628 0.06 199);
+  --people: oklch(0.674 0.069 348);
+
   --background: oklch(0.985 0.008 285);
   --foreground: oklch(0.23 0.03 270);
   --card: oklch(1 0 0);
