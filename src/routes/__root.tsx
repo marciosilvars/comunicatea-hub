@@ -77,19 +77,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ComunicaAut — CAA para famílias" },
-      { name: "description", content: "Prancha de Comunicação Alternativa e Aumentativa acolhedora para crianças autistas não-verbais e seus cuidadores." },
-      { name: "author", content: "ComunicaAut" },
-      { property: "og:title", content: "ComunicaAut — CAA para famílias" },
-      { property: "og:description", content: "Prancha de comunicação com voz, painel dos cuidadores e recursos acessíveis." },
+      { name: "author", content: "ComunicaTEA" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@ComunicaAut" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
+      },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Atkinson+Hyperlegible:wght@400..800&display=swap",
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
